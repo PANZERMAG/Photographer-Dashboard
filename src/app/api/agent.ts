@@ -1,9 +1,8 @@
 import axios, { AxiosError, AxiosResponse } from "axios";
 import { store } from "../store/configureStore";
 import { router } from "../router/Router";
-import { User } from "../models/user";
 import { PhotosessionCreate } from "../models/photosessionCreate";
-import { FieldValue, FieldValues } from "react-hook-form";
+import { FieldValues } from "react-hook-form";
 
 const sleep = () => new Promise((resolve) => setTimeout(resolve, 500));
 
