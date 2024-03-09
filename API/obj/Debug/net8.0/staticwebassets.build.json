@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "NVSEOEZQt5js1uUqBbeMwgy9anwpMLiu7L65Fye4PPg=",
+  "Source": "API",
+  "BasePath": "_content/API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\0adfa183-44a4-4cf0-9909-2cd153a4a87e.png",
+      "PackagePath": "staticwebassets\\uploads\\0adfa183-44a4-4cf0-9909-2cd153a4a87e.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\577cf6e2-580d-402d-bbcd-bb21ef3ef4a7.png",
+      "PackagePath": "staticwebassets\\uploads\\577cf6e2-580d-402d-bbcd-bb21ef3ef4a7.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\5986818c-e3a1-4fe6-b73d-a1021660388d.png",
+      "PackagePath": "staticwebassets\\uploads\\5986818c-e3a1-4fe6-b73d-a1021660388d.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\6489a34e-a9f6-472f-a033-7d742f0bb592.png",
+      "PackagePath": "staticwebassets\\uploads\\6489a34e-a9f6-472f-a033-7d742f0bb592.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\69067597-5a67-4294-9e34-a8c93c784f0b.png",
+      "PackagePath": "staticwebassets\\uploads\\69067597-5a67-4294-9e34-a8c93c784f0b.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\785dbb2c-a40b-4f3c-9450-bb04fc35fbf3.png",
+      "PackagePath": "staticwebassets\\uploads\\785dbb2c-a40b-4f3c-9450-bb04fc35fbf3.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\8d4020f4-975b-4a70-a818-6330da03c683.png",
+      "PackagePath": "staticwebassets\\uploads\\8d4020f4-975b-4a70-a818-6330da03c683.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\b035be63-93e8-4c2d-81ab-cdd681ce1bd8.png",
+      "PackagePath": "staticwebassets\\uploads\\b035be63-93e8-4c2d-81ab-cdd681ce1bd8.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\c6c9e87b-54ed-4464-9dda-cd37937990a9.png",
+      "PackagePath": "staticwebassets\\uploads\\c6c9e87b-54ed-4464-9dda-cd37937990a9.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\d8c584b3-146d-4241-b57f-53532dcc744e.png",
+      "PackagePath": "staticwebassets\\uploads\\d8c584b3-146d-4241-b57f-53532dcc744e.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\de539c88-b3b8-4759-af80-a949579044c5.png",
+      "PackagePath": "staticwebassets\\uploads\\de539c88-b3b8-4759-af80-a949579044c5.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\e0a61d94-2e60-4ec4-8673-344fac756e3d.png",
+      "PackagePath": "staticwebassets\\uploads\\e0a61d94-2e60-4ec4-8673-344fac756e3d.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\e75c8918-4741-4f53-b9cb-cc739d4ee53d.png",
+      "PackagePath": "staticwebassets\\uploads\\e75c8918-4741-4f53-b9cb-cc739d4ee53d.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\fa6a0012-1768-42df-a772-310bee19fee8.png",
+      "PackagePath": "staticwebassets\\uploads\\fa6a0012-1768-42df-a772-310bee19fee8.png"
+    },
+    {
+      "Id": "C:\\Users\\lenov\\RiderProjects\\Photographer-Dashboard\\API\\wwwroot\\uploads\\fd27d98f-f61a-497b-bed3-c3ea2434cf99.png",
+      "PackagePath": "staticwebassets\\uploads\\fd27d98f-f61a-497b-bed3-c3ea2434cf99.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
