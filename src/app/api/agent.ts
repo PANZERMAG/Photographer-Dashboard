@@ -1,6 +1,9 @@
 import axios, { AxiosError, AxiosResponse } from "axios";
 import { store } from "../store/configureStore";
 import { router } from "../router/Router";
+import { User } from "../models/user";
+import { PhotosessionCreate } from "../models/photosessionCreate";
+import { FieldValue, FieldValues } from "react-hook-form";
 
 const sleep = () => new Promise((resolve) => setTimeout(resolve, 500));
 
@@ -49,8 +52,9 @@ axios.interceptors.response.use(
 
 const requests = {
     get: (url: string) => axios.get(url).then(responseBody),
-    post: (url: string, body: {}) => axios.post(url, body).then(responseBody),
-    put: (url: string, body: {}) => axios.put(url, body).then(responseBody),
+    post: (url: string, body: object) =>
+        axios.post(url, body).then(responseBody),
+    put: (url: string, body: object) => axios.put(url, body).then(responseBody),
     delete: (url: string) => axios.delete(url).then(responseBody),
     postForm: (url: string, data: FormData) =>
         axios
@@ -67,20 +71,20 @@ const requests = {
 };
 
 const Account = {
-    login: (values: any) => requests.post("account/login", values),
+    login: (values: FieldValues) => requests.post("account/login", values),
     register: (values: any) => requests.post("account/register", values),
     currentUser: () => requests.get("account/currentUser"),
 };
 
 const Photosession = {
     getPhotosession: () => requests.get("Photosession/getUserPhotosession"),
-    createPhotosession: (values: any) =>
+    createPhotosession: (values: PhotosessionCreate) =>
         requests.post("Photosession/CreatePhotosession", values),
     initPhotosession: () => requests.get("Photosession/newPhotosession"),
 };
 
 const Photos = {
-    uploadPhoto: (values: any) => requests.post("Images", values),
+    uploadPhoto: (values: object) => requests.post("Images", values),
     deletePhoto: (id: number) => requests.delete(`Images?id=${id}`),
 };
 

@@ -1,4 +1,4 @@
-export interface Photosession {
+export interface PhotosessionCreate {
     id: number;
     title: string;
     reviewed: boolean;

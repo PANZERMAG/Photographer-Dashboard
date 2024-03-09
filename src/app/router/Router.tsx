@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../layout/App";
 import LoginPage from "../../features/account/Login";
 import PhotosessionList from "../../features/photosession/PhotosessionsList";
-import PhotosessionMain from "../../features/photosession/PhotosessionMain";
 import CreatePhotosession from "../../features/photosession/CreatePhotosession";
 import RequiredAuth from "./RequiredAuth";
 import ServerError from "../errors/ServerError";
@@ -30,6 +29,4 @@ export const router = createBrowserRouter([
             { path: '*', element: <h1>NOT FOUND KURWO</h1> },
         ]
     },
-
-
 ])

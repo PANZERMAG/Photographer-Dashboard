@@ -23,7 +23,7 @@ export default function PhotosessionList() {
             </Col>
             <Col span={15} offset={1} style={{ backgroundColor: '#292929', borderRadius: '35px' }}>
                 {photosessions != undefined && photosessions.length > 0 ? (photosessions[0].photos.map((item) => (
-                    <img src={item.url} alt="" className="" />
+                    <img src={item.path} alt="" className="" />
                 ))) : (
                     <div style={{ width: "100%", height: "100%", display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Empty style={{ color: 'white' }} />

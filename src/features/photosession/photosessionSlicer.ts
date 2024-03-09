@@ -1,11 +1,12 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { Photosession } from "../../app/models/photosession";
+import { PhotosessionCreate } from "../../app/models/photosessionCreate";
+import { PhotosessionView } from "../../app/models/photosessionView";
 import agent from "../../app/api/agent";
 
 interface PhotosessionSlice {
-    photosessions: Photosession[];
+    photosessions: PhotosessionView[];
     loading: boolean;
-    photosession: Photosession | null;
+    photosession: PhotosessionCreate | null;
 }
 
 const initialState: PhotosessionSlice = {
@@ -38,7 +39,7 @@ export const initPhotosession = createAsyncThunk(
 
 export const createPhotosession = createAsyncThunk(
     "photosession/createPhotosession",
-    async (photosession: Photosession) => {
+    async (photosession: PhotosessionCreate) => {
         try {
             return agent.Photosession.createPhotosession(photosession);
         } catch (error) {
