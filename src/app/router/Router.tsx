@@ -5,6 +5,7 @@ import PhotosessionList from "../../features/photosession/PhotosessionsList";
 import CreatePhotosession from "../../features/photosession/CreatePhotosession";
 import RequiredAuth from "./RequiredAuth";
 import ServerError from "../errors/ServerError";
+import HomePage from "../../features/home/HomePage";
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +24,7 @@ export const router = createBrowserRouter([
                     }
                 ]
             },
+            { path: '/', element: <HomePage /> },
             { path: 'login/', element: <LoginPage /> },
             { path: 'server-error', element: <ServerError /> },
 
